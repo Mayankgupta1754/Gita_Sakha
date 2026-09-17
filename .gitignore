@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# dependencies and build
+node_modules/
+.next/
+out/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# large local source books (keep on your machine, do not push)
+sources/*.pdf
+*.pdf
+
+# regenerable PDF text extracts
+knowledge-base/
+
+# editor / local
+.cursor/
+.cursorignore
+*.log

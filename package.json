@@ -1,0 +1,23 @@
+{
+  "name": "gita-sakha",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "ingest": "python scripts/ingest_gita.py"
+  },
+  "dependencies": {
+    "next": "^15.5.3",
+    "openai": "^4.104.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "typescript": "^5.9.2"
+  }
+}
